@@ -47,4 +47,3 @@ python -m unittest discover -s tests -v
 ```
 
 Results in `results/` are generated from deterministic simulated data. Metrics should be interpreted as demonstration results, not production claims. The code, report and metrics are committed together so reviewers can inspect the evaluation before running the pipeline. Generated CSV, SQLite and WAV files are ignored by Git.
-
